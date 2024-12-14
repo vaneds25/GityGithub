@@ -31,9 +31,15 @@ pero que luego tu puedes cambiar sin problema a cualquier otro.
 
 Este proyecto es open-source, así que siéntete libre de:
 
-Hacer un fork en tu cuenta de GitHub.
-Personalizarlo para tus propias necesidades.
-Contribuir enviando pull requests para mejorar la guía o el diseño.
+1.  Hacer un fork en tu cuenta de GitHub.
+
+   
+2. Personalizarlo para tus propias necesidades.
+
+   
+3. Contribuir enviando pull requests para mejorar la guía o el diseño.
+
+   
 💡 Pro tip: Si crees que este proyecto puede ayudar a otros, ¡compártelo! 🎉
 
 ---
