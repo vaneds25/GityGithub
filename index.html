@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instructivo: Subir a GitHub</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>📂 Cómo Subir un Proyecto a GitHub</h1>
+    </header>
+    <main>
+        <section class="step">
+            <h2>1. Inicializa un repositorio en tu carpeta local</h2>
+            <p>Abre la terminal en Visual Studio Code y ejecuta:</p>
+            <pre><code>git init</code></pre>
+        </section>
+        
+        <section class="step">
+            <h2>2. Configura Git (si es necesario)</h2>
+            <p>Si es la primera vez que usas Git, configura tu nombre y correo:</p>
+            <pre><code>git config --global user.name "TuNombreDeUsuario"
+git config --global user.email "TuCorreo@ejemplo.com"</code></pre>
+        </section>
+
+        <section class="step">
+            <h2>3. Crea un repositorio en GitHub</h2>
+            <p>1. Ve a <a href="https://github.com" target="_blank">GitHub</a> e inicia sesión.<br>
+            2. Crea un repositorio nuevo y copia el enlace HTTPS o SSH.</p>
+        </section>
+
+        <section class="step">
+            <h2>4. Agrega y confirma los archivos</h2>
+            <p>Añade todos los archivos y confirma los cambios:</p>
+            <pre><code>git add .
+git commit -m "Primer commit - Subiendo proyecto"</code></pre>
+        </section>
+
+        <section class="step">
+            <h2>5. Vincula tu repositorio local con GitHub</h2>
+            <p>Usa el enlace que copiaste:</p>
+            <pre><code>git remote add origin https://github.com/usuario/mi-proyecto.git</code></pre>
+        </section>
+
+        <section class="step">
+            <h2>6. Sube los archivos</h2>
+            <p>Sube los archivos con:</p>
+            <pre><code>git branch -M main
+git push -u origin main</code></pre>
+        </section>
+
+        <footer>
+            <p>👩‍💻 Hecho por Vane con 💜 | <a href="https://github.com" target="_blank">Visitar GitHub</a></p>
+        </footer>
+    </main>
+</body>
+</html>
